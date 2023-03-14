@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name=viewport content="width=device-width initial-scale=1.0" >
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <h1>Registration Form</h1>
+        <p>Please fill out this form with the required information </p>
+        <form action="#" method="get">
+            <div class="credentials">
+                <label for="fname">Enter Your First Name:</label>
+                
+                <input type="text" id="fname" class="text-input">
+                <br>
+                <label for="lname">Enter Your Last Name:</label>
+                
+                <input type="text" id="lname" class="text-input">
+                <br>
+                <label for="email">Enter Your Email:</label>
+                
+                <input type="email" id="email" class="text-input">
+                <br>
+                <label for="password">Create a New Password</label>
+            
+                <input type="password" id="password" class="text-input">
+                <br>   
+            </div>
+            <hr>
+            <div class="radio">
+                <input type="radio" id="personal-acc" name="acc-type" value="PA"><label for="personal-acc">Personal Account</label>
+                <br>
+                <input type="radio" id="business-acc" name="acc-type" value="BA">
+                <label for="business-acc">Business Account</label>
+                <br>
+                <input type="checkbox" name="t&c" id="t&c" >
+                <label for="t&c">I accept the <a href="#" target="_blank" >terms and conditions</a></label>
+            </div>
+            <hr>
+            <div class="upload">
+                <label for="profile-pic">Upload a profile picture:</label>
+                <br>
+                <input type="file" id="profile-pic" name="profile-pic">
+                <br>
+                <label for="age">Input your age (years):</label>
+                <br>
+                <input type="number" name="age" id="age" class="text-input">
+                <br>
+                <label for="hear-about">How did you hear about us?</label>
+                <br>
+                <select name="hear-about" id="hear-about">
+                    <option value="">(select one)</option>
+                    <option value="freeCodeCamp News">freeCodeCamp News</option>
+                    <option value="freeCodeCamp Youtube Channel">freeCodeCamp Youtube Channel</option>
+                    <option value="freeCodeCamp Forum">freeCodeCamp Forum</option>
+                    <option value="other">other</option>
+                </select>
+                <br>
+                <label for="bio">Provide a bio:</label>
+                <br>
+                <textarea name="bio" id="bio" rows="3" class="text-input" placeholder="I like coding on the beach..."></textarea>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </body>
+</html>

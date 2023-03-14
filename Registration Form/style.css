@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(23, 23, 44);
+}
+h1, p{
+    text-align: center;
+}
+
+h1, p, form, section, label, input, a, button {
+    color:aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+a, p, label, button{
+    font-size: large;
+}
+
+a{
+    text-decoration: underline 1px;
+}
+
+.radio input{
+    margin: 8px auto;
+}
+
+.upload label, select, textarea, button , .credentials label{
+   margin: auto;
+}
+
+.text-input{
+    background-color: rgb(0, 0, 32);
+}
+
+.text-input, .upload input, select{
+    padding: 5px;
+    margin:    8px 0 ;
+    width: 100%;
+    border: none;
+}
+
+button{
+    padding: 5px 10px;
+    display: block;
+    background-color: #2e2944;
+    width: 50%;
+    margin: auto;
+    border: aliceblue solid 1px;
+} 
+
+div{
+    /* border-left:solid cyan 1px;
+    border-right:solid cyan 1px; */
+    margin: 30px auto;
+    width: 32%;
+}
+
+hr{
+    width: 32%;
+    background-color: rgb(71, 78, 124)
+}
