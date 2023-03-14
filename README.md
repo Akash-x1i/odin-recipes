@@ -1,2 +1,2 @@
-# odin-recipes
-top tutorial practice space
+# Bug-recipes
+web dev practice space
